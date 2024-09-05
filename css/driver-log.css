@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+.main{
+    height: 100vh;
+    background-color: #EEE7F7;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    transform-origin: left;
+}
+
+.main .navileft{
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.main .navileft .nav-logo-container{
+    display: grid;
+    grid-template-rows: 15vh 20vh 65vh;
+}
+
+.main .navileft .nav-logo-container .left-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lexend", sans-serif;
+}
+
+.main .navileft .nav-logo-container .left-center h1{
+    width: 57%;
+    font-size: 30px;
+}
+
+.main .navileft .nav-logo-container .left-center h3{
+    font-size: 15px;
+    width: 57%;
+}
+
+.main .navileft .nav-logo-container .left-bot img{
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    max-width: 400px;
+    position: absolute;
+    left: 27%;
+}
+
+.main .rightnavi .rider-container .navify-selection-container{
+    position: absolute;
+    top: 40%;
+    left: 8%;
+    width: 70%;
+    height: 60%;
+}
+
+.main .rightnavi .rider-container .navify-selection-container select{
+    background-color: #628FE2;
+    text-align: center;
+    font-family: "Lexend", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    border: 5px solid white;
+    width: 70%;
+    height: 20%;
+}
+
+.main .rightnavi .rider-container .navify-selection-container select option{
+    background-color: #628FE2;
+    color: white;
+}
+
+.main .rightnavi{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.main .rightnavi .rider-container{
+    position: relative;
+}
+
+.main .rightnavi .rider-container img{
+    width: 65%;
+    height: auto;
+}
+
+.main .rightnavi .rider-container .nav-button{
+    position: absolute;
+    top: 1%;
+    left: -1%;
+    height: 10%;
+    width: 10%;
+    transform: rotate(140deg);
+}
+
+.main .rightnavi .rider-container .nav-button button{
+    border: none;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0);
+}

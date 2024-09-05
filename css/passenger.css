@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100vh;
+    background-image: url(./Asset/backgroundLoginuser.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main .navify-container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 38% 10% 52%;
+}
+.main .navify-container .box-left{
+    display: grid;
+    grid-template-rows: 120px 1fr;
+}
+.main .navify-container .box-left .navlef1{
+    padding: 5% 0 0 5%;
+}
+
+.main .navify-container .box-left .navlef2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    padding-left: 20%;
+    
+}
+
+.main .navify-container .box-left .navlef2 .img2{
+    position: absolute;
+    top: 1%;
+}
+
+.main .navify-container .box-left .navlef2 p{
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.main .navify-container .box-left .navlef2 a{
+    background: #3F529F;
+    height: 7%;
+    width: 30%;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-top: 4%;
+    color: white;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400%;
+    font-size: 15px;
+}
+
+.main .navify-container .box-center{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.main .navify-container .box-center a{
+    padding-bottom: 15%;
+}
+
+.main .box-right{
+    display: grid;
+    grid-template-rows: 200px 1fr;
+}
+
+.main .box-right .logo-right-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main .box-right .logo-right-container h1{
+    font-family: "Lexend", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #0B1026;
+    padding-right: 50px;
+}
+
+.main .box-right .login-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    font-family: "Lexend", sans-serif;
+    position: relative;
+}
+
+.main .box-right .login-container .login-box{
+    width: 55%;
+    height: 50%;
+}
+
+.main .box-right .login-container .login-box label{
+    font-size: 18px;
+}
+.main .box-right .login-container .login-box input{
+    width: 80%;
+    height: 18%;
+    border: none;
+    border-radius: 5px;
+    padding-left: 3%;
+    outline: none;
+}
+
+.main .box-right .login-container .login-box i {
+    color: rgb(36, 34, 34);
+}
+.main .box-right .login-container .login-box button{
+    width: 84%;
+    height: 18%;
+    border: none;
+    border-radius: 5px;
+    background-color: #0B1026;
+}
+.main .box-right .login-container .login-box button a{
+    color: white;
+    text-decoration: none;
+}
+.main .box-right .login-container .login-box .other-link-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 20vh;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+
+.main .box-right .login-container .login-box .other-link-container .socmed-container{
+    display: grid;
+    height: 30%;
+    grid-template-columns: 100px 100px 100px;
+    gap: 20px;
+}
+
+.main .box-right .login-container .login-box .other-link-container .socmed-container .item-socmed{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 5px;
+}
+
+.main .box-right .login-container .login-box .other-link-container .socmed-container .item-socmed img{
+    width: 20px;
+    height: 20px;
+}
+
+.main .box-right .login-container .login-box .other-link-container p a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.main .box-right .login-container .login-box .other-link-container p a:hover{
+    text-decoration: underline;
+}
